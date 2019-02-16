@@ -4,4 +4,4 @@ Volunteering tracker
 
 HTML, CSS and Javascript front end
 
-Python Postgress back end
+PHP, MySql back end
