@@ -17,10 +17,10 @@
     
     <div class="text-center">
         <div class="form-group">
-            <a href="./Registration_Org.html"><button class="btns">Company</button></a> 
+            <a href="../PHP/Registration_Org.php"><button class="btns">Company</button></a> 
         </div>
         <div class="form-group">
-            <a href="./Registration_Student.php"><button class="btns">Student</button></a> 
+            <a href="../PHP/Registration_Student.php"><button class="btns">Student</button></a> 
         </div>
         <div class="form-group">
             <button class="btns">Supervisor</button>

@@ -17,7 +17,7 @@
     </div>
 
     <div class="text-center">
-        <form action="">
+        <form action="" method="post">
                 <div class="form-group">
                     <label for="fName">First Name:</label>
                     <br>
@@ -32,8 +32,8 @@
                     <label for="birthday">Birthday:</label>
                     <br>
                     <input type="number" name = "birth-month" min="1" max="12" placeholder="1">
-                    <input type="number" name = "birth-day" id="" min="1" max="31" placeholder="1">
-                    <input type="number" name = "birth-year" id="" min="1965" max = "2019" placeholder="1965">
+                    <input type="number" name = "birth-day" id="bday" min="1" max="31" placeholder="1">
+                    <input type="number" name = "birth-year" id="byear" min="1965" max = "2019" placeholder="1965">
                 </div>
                 <div class="form-group">
                     <label for="school-code">School Code:</label>
