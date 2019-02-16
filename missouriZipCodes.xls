@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>David S</LastAuthor>
+  <LastSaved>2019-02-16T18:42:34Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8988</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ZipCodes">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="59.4"/>
+   <Column ss:Index="6" ss:Width="60"/>
+   <Column ss:Width="153.6"/>
+   <Column ss:Width="107.4"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.45">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Zip</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">State</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Latitude</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Longitude</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">63102</Data></Cell>
+    <Cell><Data ss:Type="String">Saint Louis</Data></Cell>
+    <Cell><Data ss:Type="String">MO</Data></Cell>
+    <Cell><Data ss:Type="Number">38.631551000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">-90.192999999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">63125</Data></Cell>
+    <Cell><Data ss:Type="String">Saint Louis</Data></Cell>
+    <Cell><Data ss:Type="String">MO</Data></Cell>
+    <Cell><Data ss:Type="Number">38.635199999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">-90.187020000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">63146</Data></Cell>
+    <Cell><Data ss:Type="String">Saint Louis</Data></Cell>
+    <Cell><Data ss:Type="String">MO</Data></Cell>
+    <Cell><Data ss:Type="Number">38.524065999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">-90.289500000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">63158</Data></Cell>
+    <Cell><Data ss:Type="String">Saint Louis</Data></Cell>
+    <Cell><Data ss:Type="String">MO</Data></Cell>
+    <Cell><Data ss:Type="Number">38.688585000000003</Data></Cell>
+    <Cell><Data ss:Type="Number">-90.446889999999996</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">63343</Data></Cell>
+    <Cell><Data ss:Type="String">Saint Louis</Data></Cell>
+    <Cell><Data ss:Type="String">MO</Data></Cell>
+    <Cell><Data ss:Type="Number">38.653100000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">-90.243461999999994</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>70</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <RangeSelection>R6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
