@@ -24,10 +24,14 @@
         <label for="pwd">Password:</label>
         <input type="password" name="password" id="pwd" placeholder="Password">
       </div>
-      <input type="button" value="Login">
+      <div class="btn">
+        <input type="button" value="Login">
+      </div>
+      
     </form>
-    <div class="form-group"></div>
-    <a href="../PHP/accountType.php"><button>Register</button></a>
+    <div class="btn">
+      <a href="../PHP/accountType.php"><button>Register</button></a>
+    </div>
 </div>
 </body>
 </html>
