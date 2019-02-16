@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manage Staff Access</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Manage Staff
+    </h1>
+    <form id="backToHome" action="./schoolDashboard.html">
+      <input type="submit" value="Back to Dashboard" />
+    </form>
+    <!---This is a form for adding a new staff member-->
+    <form id="addStaff" action="" method="POST">
+      <p>First Name:</p>
+      <input type="text" id="firstName" />
+
+      <p>Last Name:</p>
+      <input type="text" id="lastName" />
+
+      <p>Position:</p>
+      <input type="text" id="Position" />
+
+      <p>School Email:</p>
+      <input type="text" id="userId" />
+
+      <p>Password:</p>
+      <input type="password" id="password" />
+
+      <p>Verify Password:</p>
+      <input type="password" id="verifyPassword" />
+
+      <input type="submit" value="Add Staff Member" />
+    </form>
+
+    <!-- This is where all of the current staff will be diplayed-->
+    <div id="staffList">
+      <p>This is where the list of all of the staff will be</p>
+    </div>
+  </body>
+</html>
