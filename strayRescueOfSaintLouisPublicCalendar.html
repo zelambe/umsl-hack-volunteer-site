@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<title>Volunteer App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="">Sign out</i></a>
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">Go back to profile</h4>
+         <div style="vertical-align:middle; text-align:center">
+           <a href="./profile.html"> <img src="images/goBackToProfile.png" alt="Forest" style="width:20%;" ></a>
+        </div>
+         <hr>
+         
+        </div>
+      </div>
+      <br>
+      
+      <!-- Accordion -->
+     
+      <br>
+      
+      
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+      
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+                <h3 style="text-align: center">Stray Rescue Of Saint Louis</h3> 
+            </div>
+          </div>
+        </div>
+        
+      </div>
+          <!-- Style for goal setter -->
+    <style>
+    body {
+  padding: 50px;  
+}
+
+.progress-bg {
+	margin: 0 auto;
+	width: 65%;
+	height: 78px;
+	border-radius: 10px;
+  text-align: center;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar {
+	height: 78px;
+	border-radius: 10px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: #1c314a; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1c314a), to(#27425f)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #1c314a, #27425f); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #1c314a, #27425f); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #1c314a, #27425f); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #1c314a, #27425f);	
+}
+
+.progress-bg h3.goal, .progress-bg h3.raised {
+	font-family: Arial,sans-serif;
+  font-size: 2.7em;
+  font-weight: 600;
+	line-height: 78px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg h3.raised {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg h3.goal {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg h3.raised {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+.progress-bg h3.goal {
+	float: right;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg div {
+	-webkit-animation: progress-bar 2s ease forwards;
+	-moz-animation: progress-bar 2s ease forwards;
+	-o-animation: progress-bar 2s ease forwards;
+	animation: progress-bar 2s ease forwards;
+}
+
+@-webkit-keyframes progress-bar {
+    from { width: 0%; }
+    to { width: 50%; }
+}
+
+@-moz-keyframes progress-bar {
+    from { width: 0%; }
+    to { width: 50%; }
+}
+
+@-o-keyframes progress-bar {
+    from { width: 0%; }
+    to { width: 50%; }
+}
+
+@keyframes progress-bar {
+    from { width: 0%; }
+    to { width: 50%; }
+}
+
+    </style>
+
+
+      <!--Volunteer Opportunities-->
+      <!--The need for volunteers calendar-->
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        
+        <hr class="w3-clear">
+        <p>
+                <iframe src="https://calendar.google.com/calendar/embed?src=7abd5fcbe2pbhnsd1t13r1mt68%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+        </p>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            
+        </div>
+        
+      </div>
+      
+      
+      
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Upcoming Events:</p>
+          <img src="images/dogcostumeparty.jpg" alt="Forest" style="width:100%;">
+          <p id="upcomingEvents"><strong>Doggie Costume Party</strong></p>
+          <p>Friday 3:00pm-6:00pm</p>
+          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+        </div>
+      </div>
+      <br>
+      
+      <a class="twitter-timeline" href="https://twitter.com/StrayRescue?ref_src=twsrc%5Etfw">Tweets by StrayRescue</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <!--Approve hours modal-->
+      <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <h4 class="modal-title" id="myModalLabel">Please Rate your experience: </h4>
+            </div>
+            <div class="modal-body">
+              How was your experience onbording  
+              <span style="color:blue">@Michael Scott</span>? <br />
+              
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn btn-info" data-dismiss="modal" style="background-color: green">Great!</button>
+              <button type="button" class="btn btn btn-warning" data-dismiss="modal">Ok</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Poor</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+<br>
+
+
+ 
+<script>
+// Accordion
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme-d1";
+  } else { 
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-theme-d1", "");
+  }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html> 
