@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Student Roster
+    </title>
+  </head>
+  <body>
+    <div id="addStudentDiv">
+      <form id="newStudentForm" method="POST">
+        First Name:
+        <input type="text" id="newFirstName" />
+
+        Last Name:
+        <input type="text" id="newLastName" />
+
+        Select school year:
+        <select id="newStudentYear">
+          <option value="First year">Volvo</option>
+          <option value="Sophomore">Saab</option>
+          <option value="Junior">Mercedes</option>
+          <option value="Senior">Audi</option>
+        </select>
+
+        Hours Completed: <input type="number" id="newCompletedHours" />
+
+        Goal Hours: <input type="number" id="newGoalHours" />
+        <input type="submit" id="submitNewStudent" />
+      </form>
+    </div>
+
+    <div id="searchDiv">
+      Search by Name:<input type="text" id="query" />
+      Filters: School year:
+      <select id="schoolYearDropdown">
+        <option value="First year">Volvo</option>
+        <option value="Sophomore">Saab</option>
+        <option value="Junior">Mercedes</option>
+        <option value="Senior">Audi</option>
+      </select>
+
+      Sort results by:
+      <select id="sortDropdown">
+        <option value="Completed Hours">Volvo</option>
+        <option value="Remaining Hours">Saab</option>
+      </select>
+    </div>
+
+    <div id="results">
+      <!--This is going to have all of the students -->
+      <!---Not sure how this is going to be implemented yet lol-->
+    </div>
+  </body>
+</html>

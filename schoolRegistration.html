@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>School Registration</h1>
+    <style type="text/css">
+      input[type="text"] {
+        border: none;
+        border-bottom: 2px solid black;
+        width: 100%;
+        padding: 15px 32px;
+      }
+      input[type="text"]:focus {
+        background-color: rgb(183, 233, 250);
+      }
+      input[type="number"] {
+        border: none;
+        border-bottom: 2px solid black;
+      }
+      input[type="password"] {
+        border: none;
+        border-bottom: 2px solid black;
+        width: 100%;
+        padding: 15px 32px;
+      }
+
+      input[type="submit"] {
+        background-color: white; /* Grey */
+        border: 2px solid grey;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+      }
+
+      input[type="submit"]:hover {
+        background-color: grey; /* Green */
+        color: white;
+      }
+      form {
+        font-family: Arial, sans-serif;
+        padding: 15px 32px;
+        font-size: 16px;
+        font: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="firstName" value="First Name" />
+
+      <p>Last Name:</p>
+      <input type="text" id="lastName" value="Last Name:" />
+
+      <p>Position:</p>
+      <input type="text" id="Position" value="" />
+
+      <p>School Email:</p>
+      <input type="text" id="userId" />
+
+      <p>Password:</p>
+      <input type="password" id="password" />
+
+      <p>Verify Password:</p>
+      <input type="password" id="verifyPassword" />
+
+      <p>Goal for each student (hours):</p>
+      <input type="number" />
+
+      <p>School Code:</p>
+      <input type="text" id="schoolCode" />
+      <!--Maybe do something responsive here, like once they type in the school code, the name of the
+            school pops up, and they can click it-->
+      <input type="submit" value="Submit" />
+    </form>
+    <div id="schoolNameDiv">
+      <h2>Is this your school?:</h2>
+      <h2 id="schoolName"></h2>
+      <button id="schoolFoundButton">Yes, it is</button>
+      <button id="schoolNotFoundButton">No, it's not</button>
+    </div>
+  </body>
+</html>
