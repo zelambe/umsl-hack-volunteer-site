@@ -20,7 +20,7 @@
             <a href="./Registration_Org.html"><button class="btns">Company</button></a> 
         </div>
         <div class="form-group">
-            <a href="./Registration_Student.html"><button class="btns">Student</button></a> 
+            <a href="./Registration_Student.php"><button class="btns">Student</button></a> 
         </div>
         <div class="form-group">
             <button class="btns">Supervisor</button>

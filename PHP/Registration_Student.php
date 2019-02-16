@@ -28,7 +28,7 @@
                     <br>
                     <input type="text" name = "lName" placeholder="Last Name">
                 </div>
-                <div class="form-group">
+                <div class="birth">
                     <label for="birthday">Birthday:</label>
                     <br>
                     <input type="number" name = "birth-month" min="1" max="12" placeholder="1">
@@ -56,8 +56,9 @@
                     <input type="password" name="conf-password" id="conf-pwd" placeholder="Confirm Password">
                 </div>
                 <div class="form-group">
-                    <label for="zip-code"></label>
-                    <input type="text" name="zip-code" id="zip">
+                    <label for="zip-code">Zip Code</label>
+                    <br>
+                    <input type="text" name="zip-code" id="zip" placeholder="Zip Code">
                 </div>
                 <br>
                 <input type="button" value="Sign Up">
