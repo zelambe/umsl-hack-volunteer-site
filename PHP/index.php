@@ -29,8 +29,8 @@
       </div>
       
     </form>
-    <div class="btn">
-      <a href="../PHP/accountType.php"><button>Register</button></a>
+    <div class=form-group>
+      <a href="../PHP/accountType.php"><button class = "btn">Register</button></a>
     </div>
 </div>
 </body>
