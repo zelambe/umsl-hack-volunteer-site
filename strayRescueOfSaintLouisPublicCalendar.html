@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 </style>
@@ -221,12 +222,45 @@ body .progress-bg div {
         <p>
                 <iframe src="https://calendar.google.com/calendar/embed?src=7abd5fcbe2pbhnsd1t13r1mt68%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
         </p>
-          <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-row-padding" style="margin:0 -16px;">
+                <div class="w3-half">
+                  <form>
+                  <label>First Name</label>
+                  <input class="w3-input w3-border" type="text" placeholder="Verify First Name">
+                </div>
+                <div class="w3-half">
+                  <label>Last Name </label>
+                  <input class="w3-input w3-border" type="text" placeholder="Verify Last Name">
+                </div>
+            </div>
+            <div class="w3-row-padding" style="margin:0 -16px;">
+                <div class="w3-half">
+                  <label>Date of Event</label>
+                  <input class="w3-input w3-border" type="date" placeholder="Verify First Name from">
+                </div>
+                <div class="w3-half">
+                  <label>Hours Volunteering</label>
+                  <input class="w3-input w3-border" type="text" placeholder="Verify Last Name">       
+                 </div>
+                 <div style="margin-top:4%" class="w3-half">
+                    <label>Event: </label>
+                    <select name="event">
+                      <option value="Doggie Costume Party">Doggie Costume Party</option>
+                      <option value="Kennel Cleaning">Kennel Cleaning</option>
+                      <option value="Toy Donation Drive">Toy Donation Drive</option>
+                    </select>       
+                   </div>
+                  <input style="margin-left: 43%; margin-top: 2%" type="submit" value="Volunteer!"></input>
+              </form>
+              </div>
             
         </div>
+        <br>
+        
         
       </div>
-      
+    
       
       
     <!-- End Middle Column -->
