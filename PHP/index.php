@@ -16,7 +16,7 @@
   </div>
   
   <div class="form text-center">
-    <form action="" method="post">
+    <form action="login.php" method="post">
       <div class="form-group">
         <label for="username">Username:</label>
         <input type="text" name="username" id="uname" placeholder="Username">
@@ -26,7 +26,7 @@
         <input type="password" name="password" id="pwd" placeholder="Password">
       </div>
       <div class="btn">
-        <input type="button" value="Login">
+        <input type="submit" value="Login">
       </div>
       
     </form>

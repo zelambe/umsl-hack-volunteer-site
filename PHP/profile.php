@@ -7,10 +7,6 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <style>
 html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 </style>
@@ -20,7 +16,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="../HTML/profile.html" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Home</a>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="">Sign out</i></a>
  </div>
 </div>
@@ -43,18 +39,55 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       <div class="w3-card w3-round w3-white">
         <div class="w3-container">
          <h4 class="w3-center">My Profile</h4>
-         <p class="w3-center"><img src="images/stray-rescue-logo.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <p class="w3-center"><img src="../images/profileStudentAvatar.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
          <hr>
-         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Organization</p>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Student, 2024</p>
          <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> St. Louis, MO.</p>
-         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> Founded April 1, 1974</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> April 1, 1988</p>
         </div>
       </div>
       <br>
       
       <!-- Accordion -->
-     
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+         <a href="./PHP/loghours.php" style="text-decoration: none"> <button  onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> Log Hours</button> </a>
+          
+          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> Most Attended Events</button>
+          <div id="Demo2" class="w3-hide w3-container">
+            <p id="mostAttendedEvents">Stray Rescue of Saint Louis</p>
+          </div>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> My Badges</button>
+          <div id="Demo3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+         <div class="myBadges" width="60%">
+           <div class="w3-half">
+             <img id="myBadges" src="../images/myBadge1.png" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="../images/myBadge2.png" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="../images/myBadge3.png" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="../images/myBadge4.png" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="../images/myBadge5.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="../images/myBadge6.png" style="width:100%" class="w3-margin-bottom">
+           </div>
+        </div>
+         </div>
+          </div>
+        </div>      
+      </div>
       <br>
+
+      
       
       <!-- Interests --> 
       <div class="w3-card w3-round w3-white w3-hide-small">
@@ -62,10 +95,16 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
           <p>Interests</p>
           <p>
             <span id = "interest" class="w3-tag w3-small w3-theme-d5">Animals</span>
-            <span class="w3-tag w3-small w3-theme-d4">Teambuilding</span>
-            <span class="w3-tag w3-small w3-theme-d3">Community</span>
-            <span class="w3-tag w3-small w3-theme-d2">Activity</span>
-            <span class="w3-tag w3-small w3-theme-d1">Exercise</span>
+            <span class="w3-tag w3-small w3-theme-d4">Math</span>
+            <span class="w3-tag w3-small w3-theme-d3">English</span>
+            <span class="w3-tag w3-small w3-theme-d2">Games</span>
+            <span class="w3-tag w3-small w3-theme-d1">Friends</span>
+            <span class="w3-tag w3-small w3-theme">Games</span>
+            <span class="w3-tag w3-small w3-theme-l1">Computers</span>
+            <span class="w3-tag w3-small w3-theme-l2">Food</span>
+            <span class="w3-tag w3-small w3-theme-l3">Design</span>
+            <span class="w3-tag w3-small w3-theme-l4">Art</span>
+            <span class="w3-tag w3-small w3-theme-l5">Photos</span>
           </p>
         </div>
       </div>
@@ -77,7 +116,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
           <i class="fa fa-remove"></i>
         </span>
         <p><strong>Hey!</strong></p>
-        <p>Michael Scott has signed up to volunteer on Tuesday, February 19th at 3:00pm!</p>
+        <p>Principal Jan Levinson has approved your volunteer hours. Keep up the good work!</p>
       </div>
     
     <!-- End Left Column -->
@@ -85,12 +124,18 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
     
     <!-- Middle Column -->
     <div class="w3-col m7">
-      
+       <!-- Goal Setter -->
       <div class="w3-row-padding">
         <div class="w3-col m12">
           <div class="w3-card w3-round w3-white">
             <div class="w3-container w3-padding">
-                <h3 style="text-align: center">Stray Rescue Of Saint Louis</h3> 
+                <div class="progress-bg">
+                    <div class="progress-bar">
+                        <h3 id="hoursLogged" class="raised">30</h3>
+                    </div>
+                        
+                        <h3 id="requiredHours" class="goal">Goal: 60 hrs</h3>
+                </div>
             </div>
           </div>
         </div>
@@ -199,7 +244,7 @@ body .progress-bg h3.raised {
 }​ */
 
 .progress-bg h3.goal {
-	float: right;
+	/* float: right; */
 	display: inline;
 	padding: 0 25px 0 0;
   text-align: center;
@@ -236,20 +281,41 @@ body .progress-bg div {
 
 
       <!--Volunteer Opportunities-->
-      <!--The need for volunteers calendar-->
+      <!--Volunteer Opportunity 1-->
       <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-        
+        <img src="../images/stray-rescue-logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span id="distance" class="w3-right w3-opacity">Distance: 6 mins</span>
+        <h4 id="organization">Stray Rescue of Saint Louis</h4><br>
         <hr class="w3-clear">
         <p>
-                <iframe src="https://calendar.google.com/calendar/embed?src=7abd5fcbe2pbhnsd1t13r1mt68%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-        </p>
+            Want to help but cannot adopt. Help us get our dogs and cats out of the shelter by becoming a foster parent! All puppies, cats and kittens are always kept in foster homes and not in our shelter. Adult dogs live in foster homes and the shelter. Stray Rescue supplies everything you need. You need to supply the love and your home!</p>
           <div class="w3-row-padding" style="margin:0 -16px">
             
         </div>
-        
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>Like</button> 
+        <a href ="../PHP/strayRescueOfSaintLouisPublicCalendar.php"><type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>   Volunteer</button> </a> 
       </div>
       
-      
+      <!--Volunteer Opportunity 2-->
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="../images/national-ms-society-logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">Distance: 16 min</span>
+        <h4>National MS Society- Gateway Area Chapter</h4><br>
+        <hr class="w3-clear">
+        <p>Walk MS is a charity walk series that take place in over 550 locations with more than 330,000 people participating annually. We've been walking since 1988 and to date have raised more than $920 million to drive groundbreaking research, provide life-changing programs and guarantee a supportive community for those who need it most.</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>    Volunteer</button> 
+      </div>  
+
+      <!--Volunteer Opporunity 3-->
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="../images/SH-web-logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">Distance: 32 min</span>
+        <h4>Santa's Helpers, INC.</h4><br>
+        <p>Deprice and wrap gifts, sort and match outfits, stock toys, help bag toys. Dress as Santa and deliver toys or in plain clothes for Hannukah and Muslims.</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>    Volunteer</button> 
+      </div> 
       
     <!-- End Middle Column -->
     </div>
@@ -259,10 +325,10 @@ body .progress-bg div {
       <div class="w3-card w3-round w3-white w3-center">
         <div class="w3-container">
           <p>Upcoming Events:</p>
-          <img src="../images/dogcostumeparty.jpg" alt="Forest" style="width:100%;">
-          <p id="upcomingEvents"><strong>Doggie Costume Party</strong></p>
+          <img src="../images/camp-one-step-logo.jpg" alt="Forest" style="width:100%;">
+          <p id="upcomingEvents"><strong>Camp One Step</strong></p>
           <p>Friday 3:00pm-6:00pm</p>
-          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+         <a href="../PHP/studentProfileCalendar.php" style="text-decoration: none"> <p><button class="w3-button w3-block w3-theme-l4">Info</button></p></a>
         </div>
       </div>
       <br>
@@ -271,10 +337,10 @@ body .progress-bg div {
         <div class="w3-container">
           <p style="color: blue"> @Michael Scott</p>
           <img src="../images/michaelScott.jpg" alt="Avatar" style="width:50%"><br>
-          <span>Approve volunteer hours for Michael Scott for Friday, February 19 from 3:00PM-6:00PM:  </span>
+          <span>Accept request to volunteer together: </span>
           <div class="w3-row w3-opacity">
             <div class="w3-half">
-              <button data-toggle="modal" data-target="#myModal"  class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+              <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
             </div>
             <div class="w3-half">
               <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
@@ -284,29 +350,6 @@ body .progress-bg div {
       </div>
       <br>
       
-      <!--Approve hours modal-->
-      <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <h4 class="modal-title" id="myModalLabel">Please Rate your experience: </h4>
-            </div>
-            <div class="modal-body">
-              How was your experience onbording  
-              <span style="color:blue">@Michael Scott</span>? <br />
-              
-              
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn btn-info" data-dismiss="modal" style="background-color: green">Great!</button>
-              <button type="button" class="btn btn btn-warning" data-dismiss="modal">Ok</button>
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Poor</button>
-            </div>
-          </div>
-        </div>
-      </div>
       
       
       
