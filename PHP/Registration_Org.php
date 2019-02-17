@@ -15,34 +15,37 @@
         </div>
     </div>
 
-    <div class="text-left">
-        <form action="">
-                <div class="form-group">
-                    <label for="cName">Company Name</label>
-                    <input type="text" name = "companyName" placeholder="Company Name">
-                </div>
-                <div class="form-group">
-                    <label for="company-code">Company Code</label>
-                    <input type="text" name="companycode" id="ccode">
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail</label>
-                    <input type="email" name = "email" placeholder="name@name.com">
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="pwd" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <label for="conf-password">Confirm Password:</label>
-                    <input type="password" name="conf-password" id="conf-pwd" placeholder="Confirm Password">
-                </div>
-                
-                <br>
-                <input type="button" value="Sign Up">
-            </form>
+    <div class="container text-center">
+        <div class="card">
+            <div class="text-left">
+                <form action="">
+                        <div class="form-group">
+                            <label for="cName">Company Name</label>
+                            <input type="text" name = "companyName" placeholder="Company Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="company-code">Company Code</label>
+                            <input type="text" name="companycode" id="ccode">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" name = "email" placeholder="name@name.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="pwd" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="conf-password">Confirm Password:</label>
+                            <input type="password" name="conf-password" id="conf-pwd" placeholder="Confirm Password">
+                        </div>
+                        
+                        <br>
+                        <input type="button" value="Sign Up">
+                    </form>
+            </div>
+        </div>
     </div>
-    
     
 </body>
 </html>

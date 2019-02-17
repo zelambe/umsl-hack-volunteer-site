@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(blue,purple);
+}
+
+.container.text-center{
+    padding: 15px;
+    margin: 10 10;
+}
+
+.card{
+    
+    
+    width: 40%;
+    margin: 0 auto 0 auto;
+    background: black;
+}
+
+.card h2{
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-body{
+    background: white;
+    
+}
+form input text{
+    padding: 15px;
+    text-align: center;
+}
+
+.birth{
+    border-radius: 5px;
+    text-align: center;
+}
