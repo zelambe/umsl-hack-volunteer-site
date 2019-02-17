@@ -17,7 +17,7 @@
     </div>
 
     <div class="text-center">
-        <form action="" method="post">
+        <form action="../PHP/RegisterStudent.php" method="post">
                 <div class="form-group">
                     <label for="fName">First Name:</label>
                     <br>
@@ -61,7 +61,7 @@
                     <input type="text" name="zip-code" id="zip" placeholder="Zip Code">
                 </div>
                 <br>
-                <input type="button" value="Sign Up">
+                <input type="submit" value="Sign Up">
             </form>
     </div>
 </body>
