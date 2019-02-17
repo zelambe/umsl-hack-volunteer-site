@@ -2,19 +2,68 @@
 <html>
   <head>
     <title>Search Opportunities</title>
+    <style>
+      input[type="checkbox"] {
+        margin: 5px;
+      }
+    </style>
+    <script src="../JS/searchOpportunities.js"></script>
   </head>
   <body>
     <h1>Search Opportunities</h1>
-    <form action="" method="POST">
-      <input type="text" id="textInput" />
-      <input type="checkbox" name="vehicle1" value="Bike" /> I have a bike<br />
-      <input type="checkbox" name="vehicle1" value="Bike" /> I have a bike<br />
-      <input type="checkbox" name="vehicle1" value="Bike" /> I have a bike<br />
-      <input type="checkbox" name="vehicle1" value="Bike" /> I have a bike<br />
-      <input type="checkbox" name="vehicle1" value="Bike" /> I have a bike<br />
-      <input type="checkbox" name="vehicle2" value="Car" /> I have a car<br />
-      <input type="checkbox" name="vehicle3" value="Boat" checked /> I have a
-      boat<br /><br />
+    <form action="" onsubmit="onSearch()">
+      <input type="text" id="searchText" /> <br />
+      <input type="checkbox" id="animalWelfare" value="animalWelfare" />
+      <label for="animalWelfare">Animal Welfare</label>
+      <br />
+      <input type="checkbox" id="artsCulture" value="artsCulture" />
+      <label for="artsCulture">Arts and Culture</label>
+      <br />
+      <input type="checkbox" id="children" value="children" />
+      <label for="children">Children</label>
+      <br />
+      <input type="checkbox" id="civilRights" value="civilRights" />
+      <label for="civilRights">Civil Rights and Social Action</label>
+      <br />
+      <input type="checkbox" id="disasterRelief" value="disasterRelief" />
+      <label for="disasterRelief">Disaster and Humanitarian Relief</label>
+      <br />
+      <input
+        type="checkbox"
+        id="economicEmpowerment"
+        value="economicEmpowerment"
+      />
+      <label for="economicEmpowerment">Economic Empowerment</label>
+      <br />
+      <input type="checkbox" id="education" value="education" />
+      <label for="education">Education</label>
+      <br />
+      <input type="checkbox" id="health" value="health" />
+      <label for="health">Health</label>
+      <br />
+      <input type="checkbox" id="humanRights" value="humanRights" />
+      <label for="humanRights">Human Rights</label>
+      <br />
+      <input type="checkbox" id="politics" value="politics" />
+      <label for="politics">Politics</label>
+      <br />
+      <input
+        type="checkbox"
+        id="povertyAlleviation"
+        value="povertyAlleviation"
+      />
+      <label for="povertyAlleviation">Poverty Alleviation</label>
+      <br />
+      <input type="checkbox" id="sAndT" value="sAndT" />
+      <label for="sAndT">Science and Technology</label>
+      <br />
+      <input type="checkbox" id="socialServices" value="socialServices" />
+      <label for="socialServices">Social Services</label>
+      <br />
+      <label for="date">Date:</label>
+      <input type="date" id="date" />
+      <input type="submit" id="submit" value="submit" />
     </form>
+    <div id="searchResultsDiv"></div>
   </body>
 </html>
