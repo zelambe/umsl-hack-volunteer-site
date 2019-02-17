@@ -42,12 +42,12 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       <!-- Profile -->
       <div class="w3-card w3-round w3-white">
         <div class="w3-container">
-         <h4 class="w3-center">My Profile</h4>
-         <p class="w3-center"><img src="images/stray-rescue-logo.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <h4 class="w3-center">Go back to profile</h4>
+         <div style="vertical-align:middle; text-align:center">
+           <a href="../PHP/profile.php"> <img src="../images/goBackToProfile.png" alt="Forest" style="width:20%;" ></a>
+        </div>
          <hr>
-         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Organization</p>
-         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> St. Louis, MO.</p>
-         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> Founded April 1, 1974</p>
+         
         </div>
       </div>
       <br>
@@ -56,29 +56,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
      
       <br>
       
-      <!-- Interests --> 
-      <div class="w3-card w3-round w3-white w3-hide-small">
-        <div class="w3-container">
-          <p>Interests</p>
-          <p>
-            <span id = "interest" class="w3-tag w3-small w3-theme-d5">Animals</span>
-            <span class="w3-tag w3-small w3-theme-d4">Teambuilding</span>
-            <span class="w3-tag w3-small w3-theme-d3">Community</span>
-            <span class="w3-tag w3-small w3-theme-d2">Activity</span>
-            <span class="w3-tag w3-small w3-theme-d1">Exercise</span>
-          </p>
-        </div>
-      </div>
-      <br>
       
-      <!-- Alert Box -->
-      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
-        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
-          <i class="fa fa-remove"></i>
-        </span>
-        <p><strong>Hey!</strong></p>
-        <p>Michael Scott has signed up to volunteer on Tuesday, February 19th at 3:00pm!</p>
-      </div>
     
     <!-- End Left Column -->
     </div>
@@ -90,7 +68,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
         <div class="w3-col m12">
           <div class="w3-card w3-round w3-white">
             <div class="w3-container w3-padding">
-                <h3 style="text-align: center">Stray Rescue Of Saint Louis</h3> 
+                <h3 style="text-align: center">My Calendar</h3> 
             </div>
           </div>
         </div>
@@ -193,10 +171,10 @@ body .progress-bg h3.raised {
 }​
 
 /* Opera */
-/* @-o-keyframes fadein {
+@-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}​ */
+}​
 
 .progress-bg h3.goal {
 	float: right;
@@ -241,7 +219,7 @@ body .progress-bg div {
         
         <hr class="w3-clear">
         <p>
-                <iframe src="https://calendar.google.com/calendar/embed?src=7abd5fcbe2pbhnsd1t13r1mt68%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                <iframe src="https://calendar.google.com/calendar/embed?src=pa1bqc8pb0c1tjv9sc143e48lk%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
         </p>
           <div class="w3-row-padding" style="margin:0 -16px">
             
@@ -259,52 +237,14 @@ body .progress-bg div {
       <div class="w3-card w3-round w3-white w3-center">
         <div class="w3-container">
           <p>Upcoming Events:</p>
-          <img src="../images/dogcostumeparty.jpg" alt="Forest" style="width:100%;">
-          <p id="upcomingEvents"><strong>Doggie Costume Party</strong></p>
+          <img src="../images/camp-one-step-logo.jpg" alt="Forest" style="width:100%;">
+          <p id="upcomingEvents"><strong>Camp One Step</strong></p>
           <p>Friday 3:00pm-6:00pm</p>
-          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+          
         </div>
       </div>
       <br>
       
-      <div id= "friendRequest" class="w3-card w3-round w3-white w3-center">
-        <div class="w3-container">
-          <p style="color: blue"> @Michael Scott</p>
-          <img src="../images/michaelScott.jpg" alt="Avatar" style="width:50%"><br>
-          <span>Approve volunteer hours for Michael Scott for Friday, February 19 from 3:00PM-6:00PM:  </span>
-          <div class="w3-row w3-opacity">
-            <div class="w3-half">
-              <button data-toggle="modal" data-target="#myModal"  class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
-            </div>
-            <div class="w3-half">
-              <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      
-      <!--Approve hours modal-->
-      <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <h4 class="modal-title" id="myModalLabel">Please Rate your experience: </h4>
-            </div>
-            <div class="modal-body">
-              How was your experience onbording  
-              <span style="color:blue">@Michael Scott</span>? <br />
-              
-              
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn btn-info" data-dismiss="modal" style="background-color: green">Great!</button>
-              <button type="button" class="btn btn btn-warning" data-dismiss="modal">Ok</button>
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Poor</button>
-            </div>
-          </div>
         </div>
       </div>
       
