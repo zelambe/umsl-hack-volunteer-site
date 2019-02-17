@@ -24,4 +24,7 @@
             var_dump($e);
         }
 
+    
+        header("Location: ../PHP/hourGoal.php");
+    
 ?>
