@@ -9,7 +9,8 @@ body{
 
 .card{
     
-    
+    border: solid black 1px;
+    border-radius: 10px;
     width: 40%;
     margin: 0 auto 0 auto;
     background: black;
@@ -29,6 +30,7 @@ form input text{
     padding: 15px;
     text-align: center;
 }
+
 
 .birth{
     border-radius: 5px;

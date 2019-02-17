@@ -4,6 +4,7 @@
     <title>
       Student Roster
     </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <style>
       h2,
       h3 {
@@ -23,10 +24,23 @@
         margin-top: 15px;
         margin-bottom: 15px;
       }
+      table{
+        text-align: center;
+      }
+      table td{
+        border: solid black 2px;
+        padding: 15px;
+      }
     </style>
   </head>
   <body>
-    <h2>Student Roster</h2>
+    <div class="jumbotron">
+      <div class="text-center">
+        <h1>Student Roster</h1>
+      </div>
+    </div>
+    <div class="container text-center">
+    
     <form id="backToHome" action="../PHP/schoolDashboard.php">
       <input type="submit" value="Back To Dashboard" />
     </form>
@@ -78,6 +92,17 @@
     <div id="results">
       <!--This is going to have all of the students -->
       <!---Not sure how this is going to be implemented yet lol-->
+    </div>
+    <table>
+        <th>First Name</th><th>Last Name</th><th>Academic Year</th><th>Student ID</th><th>Hours</th><th>Send Alert</th><th>
+        <tr><td>SAM</td><td>JOHNSON</td><td>SENIOR</td><td>362532</td><td>2</td><td><input type="checkbox"></td></tr>
+        <tr><td>MILEY</td><td>RUTH</td><td>SENIOR</td><td>362532</td><td>22</td><td><input type="checkbox"></td></tr>
+        <tr><td>BAILEY</td><td>JOHNSON</td><td>SENIOR</td><td>362532</td><td>2</td><td><input type="checkbox"></td></tr>
+        <tr><td>BEN</td><td>DANE</td><td>SENIOR</td><td>343322</td><td>21</td><td><input type="checkbox"></td></tr>
+        <tr><td>KIM</td><td>DEAN</td><td>JUNIOR</td><td>362532</td><td>12</td><td><input type="checkbox"></td></tr>
+        <tr><td>NICK</td><td>WHEELER</td><td>JUNIOR</td><td>362532</td><td>56</td><td><input type="checkbox"></td></tr>
+      </table>
+
     </div>
   </body>
 </html>
