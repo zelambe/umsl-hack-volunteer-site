@@ -5,21 +5,33 @@ function onSearch(event) {
 
   xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   xmlHttp.addEventListener("load", ajaxCallback, false);
-  var query = document.getElementById("searchText").value;
 
-  xmlHttp.send(
-    "username=" +
-      username +
-      "&password=" +
-      password +
-      "&verifypassword=" +
-      verifypassword
-  );
-  document.getElementById("wel").innerHTML =
-    "Welcome to your calendar " + username + "!";
-  updateCalendar();
+  let query = document.getElementById("searchText").value;
+
+  let animalWelfare = document.getElementById("animalWelfare").checked;
+  let artsCulture = document.getElementById("artsCulture").checked;
+  let children = document.getElementById("children").checked;
+  let civilRights = document.getElementById("civilRights").checked;
+  let disasterRelief = document.getElementById("disasterRelief").checked;
+  let economicEmpowerment = document.getElementById("economicEmpowerment")
+    .checked;
+  let education = document.getElementById("education").checked;
+  let health = document.getElementById("health").checked;
+  let humanRights = document.getElementById("humanRights").checked;
+  let politics = document.getElementById("politics").checked;
+  let povertyAlleviation = document.getElementById("povertyAlleviation")
+    .checked;
+  let sAndT = document.getElementById("sAndT").checked;
+  let socialServices = document.getElementById("socialServices").checked;
+
+  let date = document.getElementById("date").value;
+
+  console.log("query" + query);
+
+  xmlHttp.send("query=" + query);
 
   function ajaxCallback(event) {
-    event.target.response;
+    console.log(event.target.respsonse);
+    //let jsonData = event.target.response;
   }
 }
